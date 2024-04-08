@@ -59,7 +59,7 @@ app.post('/image', upload.single('image'), (req, res)=>{
   const file = req.file; 
   console.log("post(/image) file:",file);
   res.send({ 
-      imageUrl: "http://52.79.108.218:8080/"+file.destination+file.filename //이미지 여기 저장했다 json형식으로 보냄
+      imageUrl: "http://13.209.76.233:8080/"+file.destination+file.filename //이미지 여기 저장했다 json형식으로 보냄
   })
 })
 

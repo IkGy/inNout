@@ -3,7 +3,7 @@
     "username": "GyeongIk",
     "password": "GyIk@619",
     "database": "hellokiticket",
-    "host": "52.79.108.218",
+    "host": "13.209.76.233",
     "dialect": "mysql"
   },
   "test": {
